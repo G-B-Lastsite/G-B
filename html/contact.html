@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
     <link rel="shortcut icon" href="/media/logo.jpg" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/d0ebfd2456.js"
@@ -16,6 +17,8 @@
       rel="stylesheet"
     />
     <title>Home</title>
+   
+    </style>
   </head>
   <body>
     <div class="container">
@@ -25,10 +28,10 @@
 
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="/html/home.html">Home</a></li>
             <li><a href="">Search</a></li>
             <li><a href="">About</a></li>
-            <li><a href="/html/contact.html">Contact</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
         <button>Login</button>
@@ -38,67 +41,71 @@
       <section>
         <img src="/media/camels.jpg" alt="camels" />
       </section>
+
       <!-- main -->
       <main>
-        <h1>Why use Eri Stars</h1>
+        <h1>How to reach us</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sapiente
-          error voluptates explicabo laboriosam perspiciatis dignissimos eum,
-          quibusdam recusan magnam nam voluptas, consectetur quasi sed aut
-          illo. Dolorum provident aliquid eos. Harum blanditiis, eos natus iusto
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius vel
-          facere consequuntur cumque placeat ab voluptatibus nam laborum
-          voluptatem officia. inventore impedit tenetur voluptate temporaculpi
-          similique, soluta . In molestias? Et eligendi magni praesentium,
-          delectus, possimus laboriosam nisi temporibus minus ducimus totam iste
-          ex ipsa, earum dolorem tempora aut error! Molestias, unde odit
-          reprehenderit 
-          sed ab est rem quod, quasi neque repudiandae?.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+          eaque eveniet ratione ipsum fugit eligendi adipisci error odio quos,
+          alias expedita fuga, iure aliquid reprehenderit possimus mollitia
+          optio doloremque. Quisquam optio esse beatae facere voluptatum earum,
+          distinctio unde soluta voluptas voluptates nobis. Alias sint, placeat
+          amet rerum facere eaque praesentium?
         </p>
-        <!-- card-viewer -->
-        <div class="card-viewers">
-          <div class="registred-artist card-viewer">
-            <h2>5K</h2>
-            <p><a href="">Registered Artist</a></p>
+        <!-- info -->
+        <div class="info">
+            <!-- text info -->
+          <div class="text-info">
+            <h2>Contact Information</h2>
+            <ul class="contact">
+              <li><i class="fa-solid fa-phone"></i><a href="tel: +2917123456"> +2917123456</a></li>
+              <li><i class="fa-solid fa-envelope"></i> <a href="mailto: admin@eristars.com">admin@eristars.com</a></li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> <a href="">155 Harnet Avenue
+                    <span id="text-indent"> Asmara, Eritrea</span></a>
+              </li>
+            </ul>
           </div>
-          <div class="registred-users card-viewer">
-            <h2>100K</h2>
-            <p><a href="">Registered Users</a></p>
-          </div>
-          <div class="weekly-searches card-viewer">
-            <h2>1M</h2>
-            <p><a href="">Weekly Searches </a></p>
-          </div>
-        </div>
-        <h3>Most Popular Searches</h3>
-        <!-- card-actor -->
-        <div class="card-actor">
-          <div class="cardofabeba artist">
-            <figure>
-              <img src="/media/abeba haile.jpg" alt="artist abeba haile" />
-              <figcaption>Abeba Haile</figcaption>
-              <button>View</button>
-            </figure>
-          </div>
-          <div class="cardofabraham artist">
-            <figure>
-              <img
-                src="/media/abraham afewerki.jpg"
-                alt="artist abraham afewerki"
-              />
-              <figcaption>Abraham Afewerki</figcaption>
-              <button>View</button>
-            </figure>
-          </div>
-          <div class="cardofyemane artist">
-            <figure>
-              <img src="/media/yemane barya.jpg" alt="artist yemane barya" />
-              <figcaption>Yemane G.Michael</figcaption>
-              <button>View</button>
-            </figure>
+          <!-- input info -->
+          <div class="input-info">
+            <form>
+             
+               <div class="left">
+              <div class="fname">
+                <legend>First Name</legend>
+                <input type="text" name="fName" id="fName" />
+              </div>
+              <div class="lname">
+                <legend>Last Name</legend>
+                <input type="text" name="lName" id="lName" />
+              </div>
+               </div>
+
+               <div class="right">
+               
+              <div class="mail">
+                <legend>Email</legend>
+                <input type="email" name="email" id="email" />
+              </div>
+               <div class="tel">
+                <legend>Phone Number</legend>
+                <input type="tel" name="tel" id="tel" />
+
+               </div>
+               </div>
+            
+    
+                <legend>Message</legend>
+                <input type="text" name="message" id="message" />
+               
+                <button class="btn">Send Message</button>
+            </form>
+
           </div>
         </div>
       </main>
+
       <!-- footer -->
       <footer>
         <div class="footer">
@@ -127,7 +134,6 @@
             <p>All rights reserved. &copy; Eri Starts 2024.</p>
           </div>
           <div class="link-media">
-            <p>Frame</p>
             <ul>
               <li>
                 <a href=""><i class="fa-brands fa-facebook-f"></i></a>
@@ -144,8 +150,7 @@
             </ul>
           </div>
         </div>
-        </footer>
+      </footer>
     </div>
-
   </body>
 </html>

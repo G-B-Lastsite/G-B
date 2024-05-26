@@ -218,11 +218,18 @@ footer .footer-media{
     display: flex;
     gap: 1rem;
     margin-left: 1rem;
+    position: relative;
+    bottom: 1rem;
+    transition: all 2s;
+}
+.link-media ul:hover{
+    transform: scale(1.1) ;
 }
 .link-media p{
     color: rgb(159, 158, 158);
 position: relative;
-bottom: 1.3rem;
+bottom: 1.2em;
+left: 0.5rem;
 } 
 
 .para > p{
