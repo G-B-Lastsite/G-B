@@ -1,4 +1,10 @@
- 
+/* root */
+:root{
+    /* font-size: 62.5% ; */
+    --textColor: #424242;
+    --buttonColor: rgb(26, 26, 26, 1);
+    --headPara-color: #000000;
+} 
 
         body {
             margin: 0;
@@ -13,7 +19,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            padding: 20px;
+            padding: 15px;
             background: rgba(248, 244, 244, 0.5);
             font-weight: 500;
             font-size: 17px;
@@ -22,7 +28,9 @@
         #nav-logo {
             width: 100px;
             height: 70px;
+           
         }
+        
 
         .nav-ul {
             display: flex;
@@ -55,10 +63,11 @@
         .nav-btn:hover{
             background-color: rgb(255, 69, 0, 0.6);
             border: none;
-        }
+        } 
+      
         section img {
             width: 100%;
-            height: 40vh;
+            height: 36vh;
         }
 
         .heading {

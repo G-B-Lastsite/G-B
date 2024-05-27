@@ -32,10 +32,12 @@ header{
     font-weight: 500;
 }
 
-header img{
-    width: 30vw;
-    height: 43vh;
-}
+
+.logo{
+    margin-top: 1rem;
+    width: 100px;
+    height: 70px;
+   }
 nav ul{
     display: flex;
     gap: 3rem;
