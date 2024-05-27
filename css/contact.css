@@ -1,0 +1,87 @@
+/* info */
+.info{
+    margin: 6rem auto;
+    width: 60vw;
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-top-right-radius: 1rem;
+    display: flex;
+    font-size: 1.3rem;
+}
+/* text info */
+.text-info{
+    background: #C4CEDA;
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    color: var(--textColor);
+}
+ .text-info > h2{
+   margin: 1rem 2rem;
+}
+main ul li{
+    width: 60%;
+    margin: 2.6rem 2rem;
+}
+ .fa-solid {
+    margin-right: 1rem;
+}
+#text-indent{
+    margin-left: 2.3rem;
+}
+/* input info */
+.left{
+    display: flex;
+    gap: 2rem;
+}
+.right{
+    display: flex;
+    gap: 2rem;
+}
+.input-info{
+    margin: 2rem 2.5rem;
+    color: var(--textColor);
+    font-weight: 600;
+  }
+input{
+    border: none;
+    border-bottom: 1px solid  #8D8D8D;
+    width: 20rem;
+    outline: none;
+    padding: 0.3rem 0.7rem;
+   margin-bottom: 2.5rem;
+   transition: all 1s;
+  }
+  input:focus{
+    border-bottom: 1px solid rgba(228, 215, 215, 0.9);
+  }
+ 
+
+#message{
+    padding: 1rem 0.7rem;
+    width: 50rem;
+}
+.btn{
+    display: block;
+   margin-top: 2.6rem;
+   margin-left: 38rem;
+   padding: 0.6rem 1.5rem;
+   border: none;
+   background-color: #C4CEDA;
+   border-radius: 0.4rem;
+   transition: all 1s;
+}
+ 
+.btn:hover{
+    background-color: rgb(196, 206, 218, 0.5);
+}
+
+/* footer */
+footer{
+    margin-top: 10rem;
+    padding-bottom: 1rem;
+}
+.link-media ul{
+    margin-top: 2rem;
+}
